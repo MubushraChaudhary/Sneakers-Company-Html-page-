@@ -1,0 +1,170 @@
+.main {
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 78vw;
+  padding-inline: 10%;
+  height: 60vh;
+}
+
+
+
+
+/*.center-div{
+
+  display: flex;
+   
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+ }*/
+.abc {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  margin-top: 30px;
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+  justify-content: center;
+}
+.pic  >img{
+  border-radius: 20px;
+}
+
+.subimg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.subimg>img{
+  border-radius: 10%;
+}
+.mainform {
+
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  /* justify-content: flex-start; */
+  /* text-align: center; */
+  /* margin-top: -45px; */
+
+}
+
+
+.mainform h1 {
+  font-size: 15px;
+  margin-bottom: -10px;
+  text-align: left;
+  font-style: Comic Sans MS;
+  color:orange;
+}
+
+.mainform h2 {
+  font-size: 45px;
+  margin-bottom: -5px;
+  text-align: left;
+  font-style: Comic Sans MS
+}
+
+.mainform p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-style: Comic Sans MS
+}
+.price1{
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.price2{
+  color: rgb(0,0,0,0.5);
+  text-decoration: line-through;
+
+}
+.off{
+  padding: 5px;
+  background-color: rgba(241, 160, 9, 0.267);
+  color:#ffa602;
+  border-radius: 20%;
+}
+
+
+
+
+.menu {
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 20px;
+  /* position: 100px; */
+  align-items: top;
+  width: 100%;
+  border-bottom: 2px solid rgb(165, 159, 159);
+  /* margin-bottom: 350px; */
+  justify-content: space-between;
+}
+
+.button button {
+  background-color: #ffa602;
+  border-radius: 5px;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px;
+  font-size: 10px;
+  margin-top: 10px;
+
+
+}
+.button button {
+  border-radius: 5px;
+  color: #FFFFFF;
+  border: none;
+  font-size: 10px;
+  margin-top: -4px;
+  
+
+
+}
+
+
+
+.new {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  margin-top: -5px;
+}
+
+@media (max-width: 768px) {
+  .abc {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 0;
+  }
+
+  .pic {
+    margin-top: 0;
+    gap: 0;
+  }
+
+  .subimg {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
